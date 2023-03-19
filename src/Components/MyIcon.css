@@ -1,0 +1,16 @@
+.MyIcon {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+
+    margin: 1rem;
+}
+
+.MyIcon-Body{
+    background-color: red;
+    padding: 1rem;
+    border-radius: 50%;
+}

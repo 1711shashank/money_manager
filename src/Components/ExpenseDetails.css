@@ -1,0 +1,66 @@
+.ExpenseDetail{
+    background-color: #f5feff;
+    height: 100vh;
+}
+
+.ExpenseDetail-header{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.ExpenseDetail-headerLeft{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.ExpenseDetail-bodyBox{
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    box-shadow: 0px 1px 1px 0px #b8b8b8
+
+    
+}
+
+.ExpenseDetail-bodyBox-header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.ExpenseDetail-bodyBox-header > p{
+    font-size: 2rem;
+    color: #4d4d4d;
+    margin-left: 5rem;
+}
+
+td { 
+    font-size: 1.5rem;
+    color: gray;
+    text-align: left;
+    padding: 1.5rem;
+}
+
+td:last-child{
+    color: #3c3c3c;
+}
+
+
+.ExpenseDetail-EditIcon{
+    position: relative;
+    top:-4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 2rem;
+
+}
+.ExpenseDetail-EditIcon > *{
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.5)
+}
