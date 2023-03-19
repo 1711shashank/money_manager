@@ -1,0 +1,16 @@
+.Body{
+    background-color: #f5feff;
+    height: 93vh;
+    padding: 1rem;
+}
+
+.body-addButton{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1;
+    background-color: #F6D050;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5)
+}
