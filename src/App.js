@@ -1,19 +1,23 @@
 import './App.css';
-import Body from './Components/Body';
-import Header from './Components/Header';
+import { useState } from 'react';
+import PageContext from './Context/PageContext';
 import ExpenseDetails from './Components/ExpenseDetails';
+import Home  from './Components/Home';
 
 function App() {
+
+  const [showExpenseDetails, setShowExpenseDetails] = useState(false);
+
   return (
     <div className="App">
-      {/* <div style={{ 'z-index': '10', 'position': 'sticky', 'top': '0' }}>
-        <Header/>
-      </div>
-      <div>
-        <Body/>
-      </div> */}
-        <ExpenseDetails/>
+      <PageContext.Provider value={{ setShowExpenseDetails }}>
 
+        {
+          !showExpenseDetails
+            ? <Home/>
+            : <ExpenseDetails />
+        }
+      </PageContext.Provider>
     </div>
   );
 }

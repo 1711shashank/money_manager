@@ -1,18 +1,25 @@
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
-import DirectionsTransitFilledOutlinedIcon from '@mui/icons-material/DirectionsTransitFilledOutlined';
-import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 import './ExpenseDetails.css'
 import MyIcon from './MyIcon'
+import { useContext } from 'react';
+import PageContext from '../Context/PageContext';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+import DirectionsTransitFilledOutlinedIcon from '@mui/icons-material/DirectionsTransitFilledOutlined';
+
 
 function ExpenseDetail() {
+
+  const { setShowExpenseDetails } = useContext(PageContext);
+
+
   return (
     <>
       <div className="ExpenseDetail">
 
         <div className="ExpenseDetail-header" >
           <div className="ExpenseDetail-headerLeft" >
-            <ArrowBackIcon style={{ fontSize: '2rem', color: 'gray' }} />
+            <ArrowBackIcon style={{ fontSize: '2rem', color: 'gray' }} onClick={()=> setShowExpenseDetails(false)}/>
             <p style={{ 'font-size': '1.5rem', 'margin-left': '2rem' }}>Details</p>
           </div>
           <div className="ExpenseDetail-headerRight">
@@ -51,13 +58,7 @@ function ExpenseDetail() {
 
           <div className='ExpenseDetail-EditIcon'>
             <MyIcon Icon={EditOutlinedIcon}/>
-            
           </div>
-
-
-
-
-
 
         </div>
 
