@@ -1,13 +1,9 @@
 import './Body.css';
-import { useContext } from 'react';
 import ExpenseCard from './ExpenseCard';
 import ExpenseSummary from './ExpenseSummary';
 import AddIcon from '@mui/icons-material/Add';
-import PageContext from '../Context/PageContext';
 
 function Body() {
-
-    const { setShowExpenseDetails } = useContext(PageContext);
 
     return (
         <>
@@ -24,7 +20,6 @@ function Body() {
                 <div className='body-addButton'>
                     <AddIcon 
                         style={{ fontSize: '3.3rem', color: 'white' }} 
-                        onClick={ () => setShowExpenseDetails(true)}
                     />
                 </div>
             </div>

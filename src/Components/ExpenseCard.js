@@ -1,8 +1,16 @@
 import './ExpenseCard.css';
-import DirectionsTransitFilledOutlinedIcon from '@mui/icons-material/DirectionsTransitFilledOutlined';function ExpenseCard() {
+import { useContext } from 'react';
+import PageContext from '../Context/PageContext';
+import DirectionsTransitFilledOutlinedIcon from '@mui/icons-material/DirectionsTransitFilledOutlined';
+
+
+function ExpenseCard() {
+
+  const { setShowExpenseDetails } = useContext(PageContext);
+
   return (
     <>
-      <div className="ExpenseCard">
+      <div className="ExpenseCard" onClick={()=>setShowExpenseDetails(true)}>
 
         <div className='ExpenseCard-header'>
           <div className='ExpenseCard-header-left'>
@@ -14,6 +22,8 @@ import DirectionsTransitFilledOutlinedIcon from '@mui/icons-material/DirectionsT
           </div>
         </div>
 
+
+
         <div className='ExpenseCard-body'>
           <div className='ExpenseCard-body-left'>
             <div className='ExpenseCard-body-left-icons'>
@@ -47,6 +57,9 @@ import DirectionsTransitFilledOutlinedIcon from '@mui/icons-material/DirectionsT
             <p>-900</p>
           </div>
         </div>
+
+
+        
       </div>
     </>
   );
