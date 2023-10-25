@@ -23,9 +23,10 @@ Security and user convenience are top priorities when dealing with sensitive fin
 <div style="display: flex; flex-direction: row;">
 
 <img src="/images/2.jpg" alt="Expense Chart" height="450">
-<img src="/images/3.jpg" alt="Expense Chart" height="450">
 <img src="/images/5.jpeg" alt="Expense Chart" height="450">
-
+<img src="/images/3.jpg" alt="Expense Chart" height="450">
+</div>
+<div style="display: flex; flex-direction: row;">
 <img src="/images/1.jpg" alt="Expense Chart" height="450">
 <img src="/images/4.jpeg" alt="Expense Chart" height="450">
 </div>
