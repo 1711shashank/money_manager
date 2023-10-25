@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Money Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Welcome to Money Manager, a comprehensive personal finance management application that empowers you to take control of your financial well-being. Developed with React Native and powered by MongoDB, Money Manager simplifies the way you handle your money.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+#### Visualize Monthly Expenses and Budgets
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Gain insight into your monthly financial landscape through interactive charts and visualizations. Money Manager makes it effortless to monitor your spending habits, categorize expenses, and track your budget, giving you a clear picture of where your money goes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Effortlessly Track Income and Expenses
 
-### `npm test`
+Efficiency in managing your finances is crucial. Money Manager provides a user-friendly platform to effortlessly record and organize your financial transactions. Log your income sources, such as salaries or other earnings, and keep tabs on expenses like bills, groceries, and more. This central repository ensures you maintain a comprehensive financial record, never missing a single financial activity.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Google Authentication
 
-### `npm run build`
+Security and user convenience are top priorities when dealing with sensitive financial data. Money Manager takes your security seriously by integrating Google Authentication. This feature allows secure and easy login with your Google account, eliminating the need for another username and password. Google Authentication not only bolsters security but also streamlines the user experience, ensuring that only authorized individuals access their financial data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Snapshort
+<div style="display: flex; flex-direction: row;">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="/images/1.jpg" alt="Expense Chart" height="400">
+<img src="/images/2.jpg" alt="Expense Chart" height="400">
+<img src="/images/3.jpg" alt="Expense Chart" height="400">
+<img src="/images/4.jpeg" alt="Expense Chart" height="400">
+<img src="/images/5.jpeg" alt="Expense Chart" height="400">
+</div>
